@@ -4,7 +4,7 @@ A brief description of what this project does.
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/sreeramsutraye/paste_lockly.git`
+1. Clone the repository: `git clone https://github.com/sreeramsutraye/url_shortener.git`
 2. Install dependencies: `pip install -r requirements.txt`
 3. Start the server:
    `python3 manage.py makemigrations`
