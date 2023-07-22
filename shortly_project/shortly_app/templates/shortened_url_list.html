@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <div>
+            <h1 style="text-align: left;">Other shortened URLS</h1>
+            <table>
+                <tr>
+                    <th>Original URL</th>
+                    <th>Short URL</th>
+                </tr>
+        
+        
+                {% for url in urls_list %}
+                <tr>
+                    <td><a href="{{ original_url }}">{{ url.original_url }}</a></td>
+                    <td><a href="{{ short_url }}">{{ url.short_url }}</a></td>
+                </tr>
+                {%endfor%}
+            </table>
+        </div>
+    </body>
+</html>
